@@ -6,8 +6,8 @@ const Section = () => {
   const Card = () => {
     return (
       <>
-        <div className='border rounded-3xl w-[370px] overflow-hidden'>
-          <div className='flex flex-row items-center justify-between w-full p-3 bg-white rounded-tr-3xl rounded-tl-3xl'>
+        <div className='border rounded-3xl w-[370px] overflow-hidden border border-[#ccc]'>
+          <div className='flex flex-row items-center justify-between w-full p-3 bg-white border-b border-[#ccc] rounded-tr-3xl rounded-tl-3xl'>
             <div className='flex flex-row items-center gap-2'>
               <FaRegPlayCircle className='text-xl text-[#7645D9]' />
               <p className='font-bold text-[#7645D9]'>LIVE</p>
@@ -16,7 +16,7 @@ const Section = () => {
               <p className='text-[#6615D6]'>#218486</p>
             </div>
           </div>
-          <div className='flex flex-col items-center overflow-hidden bg-green-100 h-[85%]'>
+          <div className='flex flex-col items-center overflow-hidden bg-white  h-[85%]'>
             <div className='w-9/12 overflow-hidden'>
               <div className='hexagon bg-[#dce3e4]'>
                 <div className='content'>
@@ -48,8 +48,8 @@ const Section = () => {
                   <p>$228.9473</p>
                 </div>
                 <div className='flex flex-row items-center justify-between'>
-                  <h3>Prize Pool:</h3>
-                  <p>8.5164 BNB</p>
+                  <h3 className='text-xl font-bold'>Prize Pool:</h3>
+                  <p className='text-xl font-bold'>8.5164 BNB</p>
                 </div>
               </div>
             </div>
